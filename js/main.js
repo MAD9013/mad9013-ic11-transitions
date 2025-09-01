@@ -1,4 +1,5 @@
 function init() {
+  //for mad9013
   const navToggle = document.querySelector('.nav-toggle');
   const nav = document.querySelector('#nav');
   const clicktoclose = document.querySelector('.click-to-close');
@@ -25,7 +26,6 @@ function init() {
   handleToTop();
 
   toTop && window.addEventListener('scroll', handleToTop);
-
 }
 
 document.addEventListener('DOMContentLoaded', init);
